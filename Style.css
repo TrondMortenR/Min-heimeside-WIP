@@ -1,0 +1,43 @@
+header {
+    text-align: center;
+}
+
+body {
+    background-image: url("amazing.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    height:100vh;
+    min-height: 100vh;
+    color:rgb(170, 250, 22);
+}
+
+.box {
+    width:300px;
+    border:15px solid black;
+    padding:50px;
+    margin:20px;
+    background-color: rgba(0, 0, 0, 0.4);
+    text-align: center;
+}
+
+.flex-colum {
+    display:flex;
+    flex-direction: column;
+}
+
+.flex-grow {
+    flex-grow:1;
+}
+
+.center {
+    margin: auto;
+    margin-top: 15px;
+    width: 50%;
+    padding: 10px;
+  }
+
+  footer {
+    background-color: black;
+    text-align: center;
+  }
